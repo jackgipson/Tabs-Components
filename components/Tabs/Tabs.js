@@ -60,6 +60,6 @@ class TabItem {
 - In your .forEach() method's callback function, return a new instance of TabLink and pass in each link as a parameter
 
 */
-let links = document.querySelectorAll('.tabs-link');
-//links = document.querySelectorAll('.tabs-link');
+//let links = document.querySelectorAll('.tabs-link');
+links = document.querySelectorAll('.tabs-link');
 links.forEach(links => new TabLink(links));
